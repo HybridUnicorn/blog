@@ -1,10 +1,11 @@
 # Site settings
-title:       Blog - Hybrid Unicorn
+title:       Hybrid Unicorn
 email:       ""
 author:      Hybrid Unicorn
 description: "Weekly entry for UWS module Game Design: Creating a Game"
 baseurl:     ""
 url:         "http://hybridunicorn.github.io"
+#url:         "http://localhost:4000"
 
 # Google analytics
 google_analytics:
@@ -31,10 +32,12 @@ flattr_button:
 
 # Build settings
 markdown:     kramdown
+kramdown:
+  input: GFM
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     3
+paginate:     4
 sass:
   compressed: true
 gems:
