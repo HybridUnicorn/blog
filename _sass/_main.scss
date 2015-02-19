@@ -8,13 +8,14 @@
 
   Best served with BASSCSS (http://jxnblk.github.io/basscss)
 
-  Crafted with <3 by John Otander (@4lpine) - ©2014 John Otander
+  Crafted with <3 by John Otander (@4lpine) - ©2015 John Otander
   MIT License http://opensource.org/licenses/MIT
 
 */
 
 body {
   font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  font-weight: 300;
 }
 
 html, body {
@@ -97,7 +98,7 @@ body {
 table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 1.5;
+  margin-bottom: 1.5em;
   font-size: 1.125rem;
   // Cells
   > thead,
