@@ -3,12 +3,9 @@ title:       Hybrid Unicorn
 email:       ""
 author:      Hybrid Unicorn
 description: "Weekly entry for UWS module Game Design: Creating a Game"
-baseurl:     ""
+baseurl:     "/blog"
 url:         "http://hybridunicorn.github.io/blog"
 #url:         "http://localhost:4000"
-
-# Google analytics
-google_analytics: UA-53548208-1
 
 # Optional features
 animated:           false
